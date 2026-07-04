@@ -35,7 +35,9 @@ $$
 
 Which can be easily seen through a graph 
 ![[dot_product_projection_additivity.png]]
+
 ---
+
 We usually don't interpret why the dot product works the way it does, and proceed by merely memorizing the fact that its multiplying each component from a vector to the one it corresponds to in the other vector and add them all together, the reason it behaves that way is due to how the unit vectors are mutually perpendicular:
 
 $$
@@ -44,3 +46,16 @@ $$
 
 So distributing each terms leaves only the ones that corresponds to the same unit basis vector direction staying.
 The same applies for cross products which is why $\vec{A} \times \vec{B}$ doesn't have any terms corresponding to $A_xB_x$, $A_yB_y$ ,or $A_zB_z$ in any of the basis directions.
+
+---
+
+### Triple products
+
+Since a cross product results in a vector that with a length corresponding to the area of the two vectors crossed, taking the dot product of a cross product results in the volume of a parallelepiped. Since that volume is the same regardless how we measure it, evidently:
+
+$$
+A \cdot (B \times C) = B \cdot (C \times A) = C \cdot (A \times B) 
+$$
+
+While conserving the **alphabetical order** to keep the sign right, the corresponding formulas with non alphabetical order results in the negative of those value(s?).
+
