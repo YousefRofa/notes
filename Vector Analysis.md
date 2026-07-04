@@ -1,4 +1,4 @@
-Dot products and cross products are both distributive, however dot products are commutative while cross products are not.
+ Dot products and cross products are both distributive, however dot products are commutative while cross products are not.
 
 We can prove the distributivity of cross and dot products for 3 vectors when they are coplanar, then extend that to the general case.
 
