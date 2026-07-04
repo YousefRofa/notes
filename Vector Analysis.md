@@ -59,3 +59,6 @@ $$
 
 While conserving the **alphabetical order** to keep the sign right, the corresponding formulas with non alphabetical order results in the negative of those value(s?).
 
+> Hence we deduce that the dot and cross product are interchangeable as long as the parentheses are placed correctly
+> $$ A\cdot (B \times C) = (A \times B) \cdot C$$
+
