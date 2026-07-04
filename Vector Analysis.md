@@ -1,4 +1,4 @@
- Dot products and cross products are both distributive, however dot products are commutative while cross products are not.
+ Dot products and cross products are both distributive, however dot products are commutative while cross products are not. (Are they associative though?)
 
 We can prove the distributivity of cross and dot products for 3 vectors when they are coplanar, then extend that to the general case.
 
@@ -49,7 +49,10 @@ The same applies for cross products which is why $\vec{A} \times \vec{B}$ doesn'
 
 ---
 
-### Triple products
+## Triple products
+### Scalar Triple Product
+
+*Multiply* three things, get a scalar.
 
 Since a cross product results in a vector that with a length corresponding to the area of the two vectors crossed, taking the dot product of a cross product results in the volume of a parallelepiped. Since that volume is the same regardless how we measure it, evidently:
 
@@ -61,4 +64,9 @@ While conserving the **alphabetical order** to keep the sign right, the correspo
 
 > Hence we deduce that the dot and cross product are interchangeable as long as the parentheses are placed correctly
 > $$ A\cdot (B \times C) = (A \times B) \cdot C$$
+
+
+### Vector Triple Product
+
+*Multiply* three things, get a vector.
 
