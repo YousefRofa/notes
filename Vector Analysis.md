@@ -78,7 +78,4 @@ $$
 
 It's like (Back-up), and keep in mind you have to get a vector from the left hand side since its just cross products there, this will help you remember the right hand side. You can prove the equation by writing both sides in component form.
 
-Using the vector triple product, you can **always** make any expression containing only one cross product per term.  
-
-
-S
+Using the vector triple product, you can **always** make any expression containing only one cross product per term.
