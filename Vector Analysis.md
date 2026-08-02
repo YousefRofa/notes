@@ -1,7 +1,7 @@
+ ---
  Dot products and cross products are both distributive, however dot products are commutative while cross products are not. (Are they associative though?)
 
 We can prove the distributivity of cross and dot products for 3 vectors when they are coplanar, then extend that to the general case.
-
 
 Let $\vec{a}, \vec{b}, \vec{c}$ lie on the plane $\Pi$ with a fixed unit normal $\hat{n}$, then:
 
