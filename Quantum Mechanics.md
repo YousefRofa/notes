@@ -6,6 +6,7 @@ The main difference between classical and quantum mechanics is that, in a classi
 
 In Quantum mechanics that is not the case, states and measurements are two different things.
 
+
 All books start by studying the spin of a system since its the most basic, yet the most quantum of all systems. Any attempt to visualize what a spin is however (Like using an arrow in space pointing to a direction) will badly miss the point.
 
 Now, spin is an intrinsic property of a system, 
