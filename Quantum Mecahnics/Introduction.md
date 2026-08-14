@@ -17,7 +17,7 @@ All books (I have read at least) start by studying the spin of a system since it
 
 So what is spin? spin is an intrinsic property of a system, that is denoted by $\sigma$. It's a degree of freedom that is associated with a sense of direction in space. We figured out that spin seems to be a thing after the Stern-Gerlach experiment that took place in 1922. The experiment consists of an oven that produced a beam of neutral atoms (Silver atoms), and it was observed that this beam of atoms splits when it passes through a magnetic field. Roughly half the atoms go upwards and the other half goes downwards with an equal magnitude of deflection, when the magnetic field is applied vertically.
 
-![alt text](image.png)
+![alt text](fig1.png)
 McIntyre Fig.1
 
 Why is this odd? because if spin of these neutral particles was a _classical spin_ - by that I mean that silver atoms are spinning around axis resulting in a magnetic moment in a direction that we can deduce using the right hand rule - then we would expect to have a distribution of deflections, rather than those two mere values of deflection up and down.
