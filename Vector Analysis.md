@@ -1,7 +1,7 @@
+ ---
  Dot products and cross products are both distributive, however dot products are commutative while cross products are not. (Are they associative though?)
 
 We can prove the distributivity of cross and dot products for 3 vectors when they are coplanar, then extend that to the general case.
-
 
 Let $\vec{a}, \vec{b}, \vec{c}$ lie on the plane $\Pi$ with a fixed unit normal $\hat{n}$, then:
 
@@ -79,3 +79,5 @@ $$
 It's like (Back-up), and keep in mind you have to get a vector from the left hand side since its just cross products there, this will help you remember the right hand side. You can prove the equation by writing both sides in component form.
 
 Using the vector triple product, you can **always** make any expression containing only one cross product per term.
+
+---
