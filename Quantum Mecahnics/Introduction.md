@@ -31,9 +31,3 @@ The reason we can't measure the components of the spin is that this intrinsic sp
 Briefly, a fundamental idea Boolean Logic is the notion of truth value, a result can be **true** or **false** with nothing in between allowed, and there are rules for combining propositions like **and**, **or**, and **not** for example.
 
 From here on, I believe that I will not be doing the greatest job justifying the sort of logic replacing the boolean logic that Quatnum Mechanics use. My try will be mostly a simplifaction of Scott Aaronson's explanation which can be found [here](https://www.scottaaronson.com/democritus/lec9.html).
-
----
-
-### Born Rule
-
-$$P = \vert<outcome \vert \psi>\vert^2$$
