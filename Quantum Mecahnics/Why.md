@@ -1,0 +1,5 @@
+# Why Quantum mechanics are the way they are
+
+There are multiple opinions that govern and try to explain Quantum Mechanics. Mainly, there is the belief that QM are probabilistic by nature, and there is the other belief that QM contains some hidden varaibles that we are not aware of, and if we manage to access these variables then we will be able to predict the quantum state of the system. To this latter belief, there are two versions, the first is that the hidden variables are available to us, but they are just kind of hard to messure, the second is that because we are made of quantum mechanical matter, and therefore subject to the restrictions of quantum mechanics, the hidden variables in principle are not detectable.
+
+We tend to adopt the first principle most of the time for practicality, and it "sounds" like it makes sense the fact that QM is the only thing in nature that really is probabilistic by nature (say if we are talking about a coin flip, then in theoryif we know all the varialbes, like mass, speed, and angular momentum, then we should be able to predict the final state of tthe coing)
