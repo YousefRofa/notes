@@ -33,10 +33,6 @@ Here it's clearly commutative, the winner doesn't depend on order (if we were to
 
 > So commutativity does not imply associativity. Abelian groups are associative only because associativity is a group axiom.
 
-**Why associativity matters.** It lets us write $abc$ without brackets. More strongly, if a law is associative then _every_ bracketing of a product $a_1 a_2 \cdots a_n$ gives the same answer (Artin, Prop. 2.1.4). Every group law is associative, so from now on we drop brackets freely.
-
-**Commutativity is not assumed.** The most important groups — matrix groups and symmetric groups — are not commutative. The order of the factors in a product is information you cannot throw away.
-
 ---
 
 **Definition:** An _identity element_ for a law on $X$ is an element $1 \in X$ such that
@@ -51,7 +47,7 @@ In additive notation the identity is written $0$, and the condition reads $0 + a
 | $(\mathrm{Mat}_n(\mathbb{R}), \cdot)$ | the identity matrix $I_n$               |
 | (maps $T \to T$, $\circ$)             | the identity map $\mathrm{id}_T(t) = t$ |
 
-The condition is **two-sided**. For the law $a \ast b := b$ (always return the right-hand element), every element $e$ satisfies $e \ast a = a$, so every element is a _left_ identity — but $a \ast e = e \neq a$ in general, so none is an identity.
+Where the identity map is basically the map that does nothing.
 
 **Proposition. An identity element, if it exists, is unique.**
 
