@@ -390,15 +390,3 @@ Reading off the table:
 | whole group         | $S_3$           | 6     |
 
 **$S_3$ is not cyclic**: no element has order 6, so no single element generates it. A cyclic group of order 6 would have exactly one subgroup of each order $1, 2, 3, 6$; $S_3$ has three of order 2. So two groups of the same order can have genuinely different structures, and $S_3$ is the first example.
-
----
-
-## Summary
-
-- A **law of composition** on $X$ is a map $X \times X \to X$; closure is built in. Group laws are always associative, rarely commutative.
-- The **identity** is unique. **Inverses** are unique when the law is associative, and $(ab)^{-1} = b^{-1}a^{-1}$.
-- A **group** is associative, has an identity, and has inverses. Its **order** $|G|$ is its number of elements.
-- The invertible elements of any associative law with identity form a group. Applied to matrices this gives $GL_n$; applied to self-maps of $\{1, \dots, n\}$ it gives $S_n$, of order $n!$.
-- $SL_n$ (determinant 1) is a subgroup of $GL_n$ because $\det$ is multiplicative.
-- Permutations can be written in two-line, one-line, cycle, or matrix form; Artin multiplies **right to left**.
-- $S_3 = \{1, x, x^2, y, xy, x^2y\}$ with $x^3 = y^2 = 1$ and $yx = x^2y$. It has order 6, is the smallest non-abelian group, and is the symmetry group of a triangle.
