@@ -1,7 +1,7 @@
 Griffith 71: You can only have discontinuity in the first derivative of the wave function when the potential goes to infinity. If the potential just changes like in the case of a finite well then you cant have a discontinuity. You can show such a thing by solving the TISE w a small epsilon and taking the limit.
 Because otherwise $\psi$ wouldn't solve the Schrödinger equation at the boundary. It's not an extra rule; it's forced by the equation.
 
-The TISE says
+The TISE says:
 
 $$\psi'' = \frac{2m}{\hbar^2}\,(V - E)\,\psi$$
 
