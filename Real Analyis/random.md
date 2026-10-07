@@ -1,0 +1,9 @@
+- What a Cantor Set is and how it is uncountable with a cardinality equal to R yet it has a length of zero. Continue reading that proof
+- What a Countable Set is
+- 1.4. Nested Interval Property ?? Can you prove it using the axiom of completeness. Can you show that the nested intervals thm requires the intervals to be closed!
+- Double check the proof of how R is not countable and everything that follows from there
+- What is the Axiom of Completeness, Why is it only true in R and not Q?
+- There is a classical definition for what a supermum is and then there is another one that is defined by lemma 1.3.8 in understanding analysis, what is that one.
+- State the Archimedean property, how can you use it to show the density of Q in R (p.22)
+- Can you prove that given two real numbers a < b there exists an irrational number a < t < b
+-
