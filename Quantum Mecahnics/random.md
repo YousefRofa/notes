@@ -20,3 +20,12 @@ It is called stationary because the probability density does not change in time,
 - To find the quantum mechanical speed of a wavefunciton you divide the coefficient of t by the coefficient of x
 
 - Why is it that for wave packets we require a fourier transform of a way that is contineous rather than discrete, whydoes a series not work
+
+- Understood how the Phi(k) is the contineous version of c_k in the case of integral summation
+
+- And so we basically have a phase velocity and a group velocity where the phase velocity is that of the individual ripples of the wave functions correspoinding to $\Psi$ but also there is some sort of an envelope velocty which is twice as fast in this particular case of quantum mechanical wave functions, that group velocity corresponds to the classical velocity of the particle. For the example of a string we get the group and the phase velocity the same and for the case of watre wave its alf of the phase velocity.
+![alt text](image.png)
+
+- What is a dispersion relation and what does it have to do with w in QM.
+
+-
