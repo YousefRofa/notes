@@ -6,4 +6,11 @@
 - SOOO is every subgroup of s3 cyclic? think.... No its a subgroup of itself and its not cyclic. Also if you were to list all the cyclic groups in S3 remember identity which is trivial
 - So when you know that phi(x) is an isomorphism you know THAT THERE EXISTS THE INVERSE FUNCTION
 - Isomorphism is an equivalence relation on groups!
+- Isomorphisms perserve orders, so Klein group and the $C_4$ group are NOT isomorphic since one has an element of order 4 and the other has none. Same with $R^{\times}$ and $R^+$ since -1 in the first has order 2 but all element have infinite order except 0 which has an order of 1.
+- How about (Z, +) and (Q, +), are they isomorphic? Also no. Since an isomorphism would have carried the generator form one to another! And Z is cyclic with generator 1 while Q is not.
+
+- It seems like only one partation of a group would contain the identity and hence be the one that is a subgroup rather than a subset. Remember please that not all partitions need to be groups!
+
+- What is an equivlance relationship and an equivalance class
+
 -
