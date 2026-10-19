@@ -1,0 +1,1 @@
+- E can not be smaller than 0 by problem 2.2 in the book
