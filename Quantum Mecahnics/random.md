@@ -24,8 +24,23 @@ It is called stationary because the probability density does not change in time,
 - Understood how the Phi(k) is the contineous version of c_k in the case of integral summation
 
 - And so we basically have a phase velocity and a group velocity where the phase velocity is that of the individual ripples of the wave functions correspoinding to $\Psi$ but also there is some sort of an envelope velocty which is twice as fast in this particular case of quantum mechanical wave functions, that group velocity corresponds to the classical velocity of the particle. For the example of a string we get the group and the phase velocity the same and for the case of watre wave its alf of the phase velocity.
-![alt text](image.png)
+  ![alt text](image.png)
 
 - What is a dispersion relation and what does it have to do with w in QM.
+
+- Quantum theory is based on two contrusts: wave functions and operators. The state of a system is represented by the wave fucntion while observables are represented by operators. Mathematically, wave funcitons satisfy the defining conditions of abstract vectors and operators act as linear transformations on these vectors. So the language is linear algebra.
+
+- What is Schwarz inequality. Can you prove it.
+
+- What does it mean for a set of functions to be _complete_ in a hilbert space.
+
+-![alt text](image-1.png)
+Here, x is basically an operator also that we can apply.
+
+- What is the canonical commutation relation
+
+- When solving the harmonic oscillator, we do our Taylor expansion near a local minimum.
+
+- Lowest rung is the first step in the ladder of energy. It's where when we apply a lowering operator on it, we get a wave function of 0 that has no energy.
 
 -
