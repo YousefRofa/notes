@@ -13,4 +13,4 @@
 
 - What is an equivlance relationship and an equivalance class
 
--
+- The issues with have with convergence due to the rearrangement of elements only happens when the convergence is conditional.

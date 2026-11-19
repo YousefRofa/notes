@@ -17,7 +17,7 @@ Examples:
 - Subtraction is a law on $\mathbb{Z}$ but **not** on $\mathbb{N}$: $1 - 2 = -1 \notin \mathbb{N}$.
 - Division is not a law on $\mathbb{R}$, but it is one on $\mathbb{R} \setminus \{0\}$.
 
-### 1.1 Associativity and commutativity
+### Associativity and commutativity
 
 A law $\ast$ on $X$ is
 
@@ -33,7 +33,7 @@ Here it's clearly commutative, the winner doesn't depend on order (if we were to
 
 > So commutativity does not imply associativity. Abelian groups are associative only because associativity is a group axiom.
 
----
+## 2. Identity Element
 
 **Definition:** An _identity element_ for a law on $X$ is an element $1 \in X$ such that
 $$1 \cdot a = a \quad\text{and}\quad a \cdot 1 = a \qquad \text{for every } a \in X.$$
@@ -57,8 +57,6 @@ So $1 = 1'$. $\blacksquare$
 
 This is why we can say **_the_** identity and give it a fixed symbol!
 
----
-
 ## 3. Invertible elements
 
 **Definition.** Let $\cdot$ be a law on $X$ with identity $1$. An element $a \in X$ is **invertible** if there is an element $a^{-1} \in X$ with
@@ -73,7 +71,7 @@ Again the condition is two-sided: $a^{-1}$ must undo $a$ from both sides.
 | $(\mathbb{Z}, \cdot)$                 | only $1$ and $-1$ ($2$ has no integer inverse) |
 | $(\mathbb{R}, \cdot)$                 | everything except $0$                          |
 | $(\mathrm{Mat}_n(\mathbb{R}), \cdot)$ | the matrices with $\det A \neq 0$              |
-| (maps $T \to T$, $\circ$)             | the bijections (proved in §6.1)                |
+| (maps $T \to T$, $\circ$)             | the bijections                                 |
 
 **Proposition. If the law is associative, an inverse, if it exists, is unique.**
 
@@ -87,49 +85,42 @@ $$(ab)^{-1} = b^{-1}a^{-1}.$$
 
 _Proof._ $(ab)(b^{-1}a^{-1}) = a(bb^{-1})a^{-1} = a \cdot 1 \cdot a^{-1} = aa^{-1} = 1$, and similarly $(b^{-1}a^{-1})(ab) = 1$. $\blacksquare$
 
-The order reverses — think of putting on socks then shoes; to undo it you remove the shoes first. When the law is not commutative, $a^{-1}b^{-1}$ is generally the **wrong** answer.
+The order reverses, think of putting on socks then shoes; to undo it you remove the shoes first. When the law is not commutative, $a^{-1}b^{-1}$ is generally the **wrong**.
 
-**Cancellation.** Invertibility is exactly what lets you cancel. If $a$ is invertible and $ab = ac$, multiply on the left by $a^{-1}$ to get $b = c$. Without invertibility this fails: in $(\mathbb{Z}, \cdot)$, $0 \cdot 2 = 0 \cdot 3$ but $2 \neq 3$.
-
----
+Anyhow, invertibility is exactly what lets you cancel. If $a$ is invertible and $ab = ac$, multiply on the left by $a^{-1}$ to get $b = c$. Without invertibility this fails: in $(\mathbb{Z}, \cdot)$, $0 \cdot 2 = 0 \cdot 3$ but $2 \neq 3$.
 
 ## 4. Groups
 
-**Definition.** A **group** is a set $G$ with a law of composition such that
+Ok we can finally talk about groups now!
 
-1. the law is **associative**;
-2. there is an **identity element** $1$;
-3. every element is **invertible**.
+**Definition:** A group is a set $G$ with a law of composition such that
 
-(Closure is part of "law of composition", so it isn't listed separately.) If the law is also commutative, $G$ is an **abelian** group.
+1. the law is _associative_;
+2. there is an _identity element_;
+3. every element is _invertible_.
 
-**Examples.** $(\mathbb{Z}, +)$, $(\mathbb{Q}, +)$, $(\mathbb{R}, +)$, $(\mathbb{C}, +)$ are abelian groups. $(\mathbb{R} \setminus \{0\}, \cdot)$ is an abelian group, written $\mathbb{R}^\times$; likewise $\mathbb{Q}^\times$, $\mathbb{C}^\times$.
+Closure is part of "law of composition", so it isn't listed separately. If the law is also commutative, $G$ is an **abelian** group.
 
-**Non-examples.** $(\mathbb{N}, +)$: $1$ has no inverse. $(\mathbb{Z}, \cdot)$: $2$ has no inverse. $(\mathrm{Mat}_n(\mathbb{R}), \cdot)$: singular matrices have no inverse.
+**Examples:** $(\mathbb{Z}, +)$, $(\mathbb{Q}, +)$, $(\mathbb{R}, +)$, $(\mathbb{C}, +)$ are abelian groups. $(\mathbb{R} \setminus \{0\}, \cdot)$ is an abelian group, written $\mathbb{R}^\times$; likewise $\mathbb{Q}^\times$, $\mathbb{C}^\times$.
 
-**How to build groups.** The non-examples suggest a fix. If a set has an associative law with an identity, then **its invertible elements form a group** — closure holds by the $(ab)^{-1}$ formula, $1$ is invertible, and $a^{-1}$ is invertible with inverse $a$. Both of the big families below are made this way: start with all matrices, or all maps, and throw away what can't be inverted.
-
----
+**Non-examples:** $(\mathbb{N}, +)$: $1$ has no inverse. $(\mathbb{Z}, \cdot)$: $2$ has no inverse. $(\mathrm{Mat}_n(\mathbb{R}), \cdot)$: singular matrices have no inverse.
 
 ## 5. The order of a group
 
-**Definition.** The **order** of a group $G$, written $|G|$, is the number of elements of $G$. A group is **finite** if $|G| < \infty$ and **infinite** otherwise.
+**Definition:** The order of a group $G$, written $|G|$, is the number of elements of $G$. A group is **finite** if $|G| < \infty$ and infinite otherwise.
 
 | Group                                                      | Order    |
 | ---------------------------------------------------------- | -------- |
 | $\{1\}$, the trivial group                                 | $1$      |
 | $\{1, -1\}$ under multiplication                           | $2$      |
-| $S_n$, the symmetric group (§6)                            | $n!$     |
-| $S_3$                                                      | $6$      |
+| $S_n$, the symmetric group (in §6)                         | $n!$     |
 | $(\mathbb{Z}, +)$, $\mathbb{R}^\times$, $GL_n(\mathbb{R})$ | infinite |
 
-**Do not confuse with the order of an element.** For $g \in G$, the order of $g$, written $|g|$, is the smallest $n \geq 1$ with $g^n = 1$ (or $\infty$ if there is none). $|G|$ counts elements of the group; $|g|$ counts how many times you must apply $g$ to get back to $1$. They are related — for finite $G$, $|g|$ always divides $|G|$ (Lagrange's theorem, later) — but they are different numbers. In $S_3$, which has order 6, the elements have orders 1, 2 and 3 (see §7).
-
----
+**Do not confuse with the order of an element.** For $g \in G$, the order of $g$, written $|g|$, is the smallest $n \geq 1$ with $g^n = 1$ (or $\infty$ if there is none). $|G|$ counts elements of the group; $|g|$ counts how many times you must apply $g$ to get back to $1$. They are related though, for finite $G$, $|g|$ always divides $|G|$ (Lagrange's theorem, later), but they are different numbers. In $S_3$, which has order 6, the elements have orders 1, 2 and 3.
 
 ## 6. Matrix groups
 
-### 6.1 The general linear group $GL_n$
+### The general linear group $GL_n$
 
 **Definition (Artin 2.2.4).**
 $$GL_n = \{\, n \times n \text{ invertible matrices } A \,\}$$

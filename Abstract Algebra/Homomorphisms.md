@@ -23,7 +23,6 @@ I like to think of it as a **translator** between two languages. If you say "$a$
 
 If the laws are written additively, the condition just changes its outfit. For example if $G$ is additive and $G'$ is multiplicative, it reads $\varphi(a + b) = \varphi(a)\varphi(b)$ (hi, exponential function!)
 
-### 1.1 Two free gifts
 
 When a homomorphism only promises to respect multiplication. It turns out it then respects the identity and inverses also for free.
 
@@ -58,9 +57,9 @@ Also by induction, $\varphi(a^n) = \varphi(a)^n$ for every integer $n$.
 **Definition:** The **image** of $\varphi : G \to G'$ is
 $$\operatorname{im}\varphi = \{\, x \in G' : x = \varphi(a) \text{ for some } a \in G \,\}.$$
 
-It's everything in $G'$ that actually gets "hit". You can think of it as the part of $G'$ that $\varphi$ is able to "talk about".
+It's everything in $G'$ that actually gets "hit" by the mapping. It is the part of $G'$ that $\varphi$ is able to "talk about".
 
-**Proposition.** $\operatorname{im}\varphi$ is a subgroup of $G'$.
+**Proposition:** $\operatorname{im}\varphi$ is a subgroup of $G'$.
 
 _Proof._
 
@@ -68,13 +67,11 @@ _Proof._
 - **Identity.** $1' = \varphi(1)$.
 - **Inverses.** $\varphi(a)^{-1} = \varphi(a^{-1})$. $\blacksquare$
 
-Examples: $\operatorname{im}(\det) = \mathbb{R}^\times$ (the matrix $\operatorname{diag}(c, 1, \dots, 1)$ has determinant $c$), $\operatorname{im}(\exp) = \mathbb{R}_{>0}$, $\operatorname{im}(\lvert\cdot\rvert) = \mathbb{R}_{>0}$, $\operatorname{im}(n \mapsto 2n) = 2\mathbb{Z}$.
-
-### 3.1 The image of $n \mapsto a^n$ is the cyclic group $\langle a \rangle$
+### The image of $n \mapsto a^n$ is the cyclic group $\langle a \rangle$
 
 Fix an element $a \in G$ and define
 $$\varphi : \mathbb{Z}^+ \to G, \qquad n \mapsto a^n.$$
-(Here $\mathbb{Z}^+$ means $\mathbb{Z}$ under $+$.) It's a homomorphism because $\varphi(m + n) = a^{m+n} = a^m a^n = \varphi(m)\varphi(n)$.
+(Note that here $\mathbb{Z}^+$ means $\mathbb{Z}$ under $+$) It's a homomorphism because $\varphi(m + n) = a^{m+n} = a^m a^n = \varphi(m)\varphi(n)$.
 
 **The intuition: $a$ is a step, $n$ is how many steps you take.**
 
