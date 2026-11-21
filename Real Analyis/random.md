@@ -18,3 +18,7 @@
 - The reason we refer to closed sets as closed sets is because topologically speaking, a closed set is one where convergent sequences within the set have limits that are also within the set. Similar to linear algebra where operations do not take us outisise the vector space!
 
 - The mathematical notions of open and closed are not antonyms like in English. So if a set is not open, that doesnt imply that it's closed.
+
+- On of the important differences between the definition ofa  limit and the definition of continuity of the function at c is that the point c in the case of a limit does not have to be in the domain but when we talk about continuity, the point must be in the domain
+
+- 
