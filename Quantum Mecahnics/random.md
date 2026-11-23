@@ -43,4 +43,6 @@ Here, x is basically an operator also that we can apply.
 
 - Lowest rung is the first step in the ladder of energy. It's where when we apply a lowering operator on it, we get a wave function of 0 that has no energy.
 
+- The energy time uncertainty principle is altogether a different beast from the position momentum one, whose superficial resemblance to PM UP is actually quite misleading (110, Griffith). That is because time is an independent variable in comparison to other characteristics of the particle, you go and measure the mass, or position, but never the "time" of a particle.
+
 -
