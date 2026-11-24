@@ -4,8 +4,11 @@
 - Double check the proof of how R is not countable and everything that follows from there
 - What is the Axiom of Completeness, Why is it only true in R and not Q?
 - There is a classical definition for what a supermum is and then there is another one that is defined by lemma 1.3.8 in understanding analysis, what is that one.
+
 - State the Archimedean property, how can you use it to show the density of Q in R (p.22)
+
 - Can you prove that given two real numbers a < b there exists an irrational number a < t < b
+
 - Is there a proof for the axiom of completeness
 - What is the formal definition of a _sequence_, it's merely a function whose domain is $N$. It comes clearly form the familiar depiction of a sequence as an ordered list of real numbers.
 - What does it mean for a sequence to be bounded can you write a formal definition for that
@@ -19,6 +22,6 @@
 
 - The mathematical notions of open and closed are not antonyms like in English. So if a set is not open, that doesnt imply that it's closed.
 
-- On of the important differences between the definition ofa  limit and the definition of continuity of the function at c is that the point c in the case of a limit does not have to be in the domain but when we talk about continuity, the point must be in the domain
+- On of the important differences between the definition ofa limit and the definition of continuity of the function at c is that the point c in the case of a limit does not have to be in the domain but when we talk about continuity, the point must be in the domain
 
-- 
+-
