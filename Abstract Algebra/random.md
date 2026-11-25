@@ -14,3 +14,16 @@
 - What is an equivlance relationship and an equivalance class
 
 - The issues with have with convergence due to the rearrangement of elements only happens when the convergence is conditional.
+
+- $\mathbb{Z}a + \mathbb{Z}b = \mathbb{Z}d$ how does that read? is it for any q,p, w in Z, qa + pb = wd?
+  Almost. The quantifiers are the issue. It is not "for any $q, p, w$". It's an equality of sets, so it means two inclusions.
+
+$\subseteq$: every combination is a multiple of $d$.
+
+$$\forall\, q, p \in \mathbb{Z},\ \exists\, w \in \mathbb{Z}: \quad qa + pb = wd.$$
+
+$\supseteq$: every multiple of $d$ is a combination.
+
+$$\forall\, w \in \mathbb{Z},\ \exists\, q, p \in \mathbb{Z}: \quad qa + pb = wd.$$
+
+In each direction you choose some of the numbers freely, and the others then depend on that choice.
